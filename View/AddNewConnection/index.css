@@ -1,0 +1,25 @@
+body{
+    background: #fff;
+}
+
+.form {
+    width:100%;
+    height:275px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.form label {
+    width:100%;
+    text-align: left;
+}
+
+.form input {
+    width: 100%;
+    height:25px;
+    background: #ecf0f1;
+    border: 1px solid #bcc0c0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+

@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    font-weight: bold;
+    padding:20px;
+    font-size:16px;
+}
+img{
+    width: 60px;
+}
+
+span {
+    font-size:10px;
+}
+
+span a{
+    color:#222;
+}

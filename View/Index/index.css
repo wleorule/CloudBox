@@ -1,0 +1,75 @@
+.ftpServers {
+    width: 200px;
+    height: 575px;
+    background: #ecf0f1;
+    border-right:1px solid #bcc0c0;
+    box-sizing: border-box;
+    float:left;
+}
+
+.fileList {
+    width:600px;
+    height:575px;
+    background: #ffffff url('../../Assets/IMG/Logo.png') no-repeat center;
+    float:left;
+}
+
+.list {
+    width:100%;
+    height:525px;
+}
+
+.addNew {
+    width: 100%;
+    height: 50px;
+    border-top:1px solid #bcc0c0;
+    text-align: center;
+    transition: all .6s;
+    box-sizing: border-box;
+}
+
+.addNew:hover {
+    background: #d4d8d8;
+}
+
+.addNew a{
+    display: block;
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #222;
+}
+
+ul {
+    margin:0;
+    padding: 0;
+}
+
+li {
+    width:100%;
+    height:40px;
+    border-bottom:1px solid #bcc0c0;
+    color:#a9acac;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left:10px;
+    box-sizing: border-box;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+li.active {
+    background: #bcc0c0;
+    color: #27ae60;
+}
+
+li.error {
+    background: #ecf0f1;
+    color: #c0392b;
+}
+
+li:hover {
+    background: #bcc0c0;
+    color: #222;
+}

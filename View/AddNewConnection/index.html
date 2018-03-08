@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Add new FTP connection</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="../../Assets/CSS/main.css">
+</head>
+
+<body>
+
+        <nav>
+                <div calss="title">
+                CloudBox v1.0.0 - Add new FTP server
+                </div>
+                <div class="options">                
+                    <img id="btnMin" src="../../Assets/IMG/min.png" />
+                    <img id="btnClose" src="../../Assets/IMG/close.png" />
+                </div>
+            </nav>  
+
+    <div class="form">
+        <label>
+            Friendly name:
+        </label>
+        <input type="text" id="ftpName" />
+        <p></p>
+        <label>
+            Host address:
+        </label>
+        <input type="text" id="ftpHost" />
+        <p></p>
+        <label>
+            Host username:
+        </label>
+        <input type="text" id="ftpUser" />
+        <p></p>
+        <label>
+            Host password:
+        </label>
+        <input type="password" id="ftpPass" />
+        <p></p>
+        <label>
+            Host port:
+        </label>
+        <input type="text" id="ftpPort" value="21" />
+        <label>
+        
+        <p></p>
+        <a href="javascript:void(0);" id="btnAdd" class="btn btn-primary fullWidth">SAVE HOST</a>
+    </div>
+</body>
+
+<script src="../../Model/Server.js"></script>
+<script src="index.js"></script>
+<script src="../../Common/Nav.js"></script>
+
+</html>

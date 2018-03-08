@@ -1,0 +1,23 @@
+{
+  "name": "NoviApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "1.7.10"
+  },
+  "dependencies": {
+    "backslash": "^0.2.0",
+    "crypto": "^1.0.1",
+    "ftp": "^0.3.10",
+    "guid": "0.0.12",
+    "node-linq": "0.0.5",
+    "uuid": "^3.1.0"
+  }
+}
